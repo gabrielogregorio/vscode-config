@@ -1,0 +1,41 @@
+{
+  // experience
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.autoSave": "afterDelay",
+
+  // visual
+  "editor.fontFamily": "'Fira Code'", // Install package, and close and open vscode, not reload! https://github.com/tonsky/FiraCode
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'Fira Code'",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "window.zoomLevel": 0.3,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 0,
+  "editor.rulers": [120, 140],
+
+  // usability vscode
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.env.linux": {},
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden"
+}
