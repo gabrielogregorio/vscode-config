@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+
+    // strict mode
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noErrorTruncation": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // path configuration
+    "baseUrl": "./",
+    "paths": {
+      "@/forms/*": ["src/components/forms/*"],
+      "@/layouts/*": ["src/components/layouts/*"],
+      "@/configs/*": ["src/core/configs/*"]
+    }
+  }
+}
