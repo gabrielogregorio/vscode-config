@@ -36,6 +36,6 @@
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": true,
   "editor.minimap.enabled": false,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden"
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.vertical": "auto",
 }
