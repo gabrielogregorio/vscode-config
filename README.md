@@ -31,3 +31,7 @@ In `.vscode/settings.json` there are some of the settings that I find interestin
 - CodeMetrics
 - Code Spell Checker
 - Auto Rename Tag
+
+===========
+
+shift + F8 go to errors
